@@ -86,44 +86,66 @@
         </div>
 
         <div id="exercicio3">
-            <!--
-                Exercício 3 - Listas
-
-                Listas: reproduza no HTML uma estrutra de lista ordenadas conforme abaixo.
-                Lembre-se que você pode ter listas dentro de listas!
-
-                IMPORTANTE: Deixe tudo dentro deste <div>.
-
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-                1. Fechar contrato
-                2. Análise de sistema
-                    1. Avaliação da empresa
-                        1. Entrevista com funcionários
-                        2. Pesquisa de documentação da empresa
-                    2. Programação
-                    3. Aprovação do projeto
-                3. Treinamento dos usuários
-            -->
+            <ol>
+                <li>Fechar contrato</li>
+                <li>
+                    Análise de sistema
+                    <ol>
+                        <li>
+                            Avaliação da empresa
+                            <ol>
+                                <li>Entrevista com funcionários</li>
+                                <li>Pesquisa de documentação da empresa</li>
+                            </ol>
+                            <li>Programação</li>
+                            <li>Aprovação do projeto</li>
+                        </li>
+                    </ol>
+                </li>
+                <li>Treinamento dos usuários</li>
+            </ol>
         </div>
 
         <div id="exercicio4">
-            <!--
-                Exercício 4 - Tabela
-
-                Escreva uma tabela em HTML que represente a que está no arquivo tabela.png existente na mesma pasta
-                deste arquivo. É a figura que foi colocada abaixo.
-
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-                IMPORTANTE 1: Deixe tudo dentro deste <div>.
-                IMPORTANTE 2: A tabela tem que ter o <thead> e o <tbody>.
-                IMPORTANTE 3: Não confunda <th> com <td>.
-                IMPORTANTE 4: E não se esqueça dos atributos colspan e rowspan.
-                IMPORTANTE 5: Depois de ter feito a tabela, delete a tag <img> abaixo ou coloque-a em um comentário.
-                OBSERVAÇÃO: Não se preocupe com a largura, bordas e cores, o CSS deve fazer esse trabalho sozinho.
-            -->
-            <img src="tabela.png" alt="Faça o equivalente desta tabela! E delete esta imagem." />
+           <table>
+            <thead>
+                <th colspan="5">Tabela de Serviços Mecânicos</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="5">Nacionais</th>
+                    <th>Veículos</th>
+                    <th>Serviços</th>
+                    <th>Tempo Previsto</th>
+                    <th>Valor</th>
+                </tr>
+                <tr>
+                    <td>Caminhonete S10</td>
+                    <td>Suspensão</td>
+                    <td>3 horas e 25 minutos</td>
+                    <td>350,00</td>
+                </tr>
+                <tr>
+                    <td>Caminhonete Ranger</td>
+                    <td>Freio</td>
+                    <td>3 horas e 45 minutos</td>
+                    <td>200,00</td>
+                </tr>
+                <tr>
+                    <td>Caminhonete Hilux</td>
+                    <td>Troca da Bateria</td>
+                    <td>30 minutos</td>
+                    <td>25,00</td>
+                </tr>
+                <tr>
+                    <td>Caminhonete D10</td>
+                    <td>Alinhamento</td>
+                    <td>1 hora e 40 minutos</td>
+                    <td>220,00</td>
+                </tr>
+            </tbody>
+        </table>
+            <!-- <img src="tabela.png" alt="Faça o equivalente desta tabela! E delete esta imagem." /> -->
         </div>
     </body>
 </html>
